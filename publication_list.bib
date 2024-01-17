@@ -7,12 +7,9 @@
 @STRING{ICCV = {Proc. of the IEEE International Conf. on Computer Vision (ICCV)}}
 @STRING{THREEDV = {Proc. of the International Conf. on 3D Vision (3DV)}}
 @STRING{NEURIPS = {Advances in Neural Information Processing Systems (NeurIPS)}}
-@STRING{ARXIV = {arXiv.org}}
-@STRING{Preprints = {Preprints.org}}
+@STRING{ARXIV = {arXiv}}
+@STRING{Drones = {Drones}}
 @STRING{CAAI = {Commuynications of Chinese Association for Artificial Intelligence (CAAI)}}
-
-
-
 
 
 @article{yu2023immersivenerf,
@@ -36,6 +33,22 @@
   booktitle = ARXIV,
 }
 
+@article{drones8010022,
+AUTHOR = {Han, Yuqi and Yu, Xiaohang and Luan, Heng and Suo, Jinli},
+TITLE = {Event-Assisted Object Tracking on High-Speed Drones in Harsh Illumination Environment},
+JOURNAL = {Drones},
+VOLUME = {8},
+YEAR = {2024},
+NUMBER = {1},
+ARTICLE-NUMBER = {22},
+img = {assets/img/publications/Drones.png},
+html = {https://www.mdpi.com/2504-446X/8/1/22},
+ISSN = {2504-446X},
+ABSTRACT = {Drones have been used in a variety of scenarios, such as atmospheric monitoring, fire rescue, agricultural irrigation, etc., in which accurate environmental perception is of crucial importance for both decision making and control. Among drone sensors, the RGB camera is indispensable for capturing rich visual information for vehicle navigation but encounters a grand challenge in high-dynamic-range scenes, which frequently occur in real applications. Specifically, the recorded frames suffer from underexposure and overexposure simultaneously and degenerate the successive vision tasks. To solve the problem, we take object tracking as an example and leverage the superior response of event cameras over a large intensity range to propose an event-assisted object tracking algorithm that can achieve reliable tracking under large intensity variations. Specifically, we propose to pursue feature matching from dense event signals and, based on this, to (i) design a U-Net-based image enhancement algorithm to balance RGB intensity with the help of neighboring frames in the time domain and then (ii) construct a dual-input tracking model to track the moving objects from intensity-balanced RGB video and event sequences. The proposed approach is comprehensively validated in both simulation and real experiments.},
+DOI = {10.3390/drones8010022},
+booktitle = Drones,
+}
+
 
 @article{yu2023immersive,
   title={Acquisition, Representation, and Application of Immersive Light Field },
@@ -48,14 +61,5 @@
 }
 
 
-@article{han2023event,
-  title={Event-Assisted Object Tracking on High-Speed Drones under Harsh Illumination Environment},
-  author={Han, Yuqi and Yu, Xiaohang and Luan, Heng and Suo, Jinli},
-  year={2023},
-  img = {assets/img/publications/Drones.png},
-  html = {https://www.preprints.org/manuscript/202312.1056},
-  publisher={Preprints},
-  booktitle = Preprints,
-}
 
 
