@@ -2,22 +2,25 @@ from pybtex.database.input import bibtex
 
 def get_personal_data():
     name = ["Xiaohang", "Yu"]
-    email = "yuxh21@maisl.tsinghua.edu.cn"
+    email = "xiaohang.yu@epfl.ch"
     # twitter = "Mi_Niemeyer"
     # github = "m-niemeyer"
     # linkedin = "michael-niemeyer"
     bio_text = f"""
                 <p>
-                    I am a final-year master's student at Tsinghua University, supervised by <a href="https://scholar.google.com/citations?user=CHAajY4AAAAJ&hl=zh-CN" target="_blank">Prof. Qionghai Dai</a>. 
-                    My master’s thesis has focused on large-scale scene reconstruction and rendering and the corresponding applications in VR to improve the sense of immersion. <br>
-                    <p>I am interested in computer vision and HCI, particularly in neural scene representation and its integration into human-centered design and interaction. 
+                    I am a first-year PhD student at <a href="https://www.mackenziemathislab.org/" target="_blank">Mathis Laboratory of adaptive intelligence </a> at EPFL, Switzerland. 
+                    My advisor is <a href="https://www.mackenziemathislab.org/mackenziemathis" target="_blank">Prof. Mackenzie Mathis</a>.</p>
+                <p>    
+                    I got my Master's degree of Data Science from Tsinghua University, where I was supervised by <a href="https://scholar.google.com/citations?user=CHAajY4AAAAJ&hl=zh-CN" target="_blank">Prof. Qionghai Dai</a>. 
+                    My master’s thesis has focused on large-scale scene reconstruction and rendering and the corresponding applications in VR to improve the sense of immersion. <br></p>
+                    <p>I am interested in 3D/4D reconstruction, particularly recovering shape and motion from partial observations like videos.
                     Also, I am enthusiastic about fairness and transparency in AI to ensure inclusivity.</p>
             
                 </p>
                 <p>For any inquiries, feel free to reach out to me via mail!</p>
                 <p>
                     <a href="https://lexiyutou.github.io/assets/pdf/Xiaohang_Yu_CV.pdf" target="_blank" style="margin-right: 5px"><i class="fa fa-address-card fa-lg"></i> CV</a>
-                    <a href="mailto:yuxh21@mails.tsinghua.edu.cn" style="margin-right: 5px"><i class="far fa-envelope-open fa-lg"></i> Mail</a>
+                    <a href="mailto:xiaohang.yu@epfl.ch" style="margin-right: 5px"><i class="far fa-envelope-open fa-lg"></i> Mail</a>
                     <a href="https://scholar.google.com/citations?user=Gi_MoOsAAAAJ&hl=zh-CN" target="_blank" style="margin-right: 5px"><i class="fa-solid fa-book"></i> Scholar</a>
                     <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#demo" data-toggle="collapse" style="margin-left: -6px; margin-top: -2px;"><i class="fa-solid fa-trophy"></i>Awards</button>
                     <div id="demo" class="collapse">
