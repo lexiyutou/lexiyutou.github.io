@@ -36,9 +36,9 @@ def get_personal_data():
     """
     footer = """
             <div class="col-sm-12" style="">
-                <h4>Miscellaneous</h4>
+                <h4>Teaching</h4>
                 <p>
-                    Other random stuff, under construction.
+                    Teaching assistant for <a href="https://edu.epfl.ch/coursebook/en/analysis-iv-for-el-gm-mx-MATH-207-C" target="_blank">MATH-207(c): Analysis IV</a> (Spring 2025) <br>
                 </p>
             </div>
     """
