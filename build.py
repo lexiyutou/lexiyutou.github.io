@@ -8,9 +8,9 @@ def get_personal_data():
     # linkedin = "michael-niemeyer"
     bio_text = f"""
                 <p>
-                    I am a first-year PhD student at EPFL, Switzerland. 
+                    I am a third-year PhD student at <a href="https://mlabofai.org/" target="_blank">M-Lab of Adaptive Intelligence</a>, EPFL, Switzerland. 
                 <p>    
-                    I got my Master's degree of Data Science from Tsinghua University, where I was supervised by <a href="https://scholar.google.com/citations?user=CHAajY4AAAAJ&hl=zh-CN" target="_blank">Prof. Qionghai Dai</a>. 
+                    I got my Master's degree of Data Science from <a href="https://www.tsinghua.edu.cn/en/" target="_blank">Tsinghua University</a>, where I was supervised by <a href="https://scholar.google.com/citations?user=CHAajY4AAAAJ&hl=zh-CN" target="_blank">Prof. Qionghai Dai</a>. 
                     My master’s thesis has focused on large-scale scene reconstruction and rendering and the corresponding applications in VR to improve the sense of immersion. <br></p>
                     <p>I am interested in 3D/4D reconstruction, particularly recovering shape and motion from partial observations like videos.
                     Also, I am enthusiastic about fairness and transparency in AI to ensure inclusivity.</p>
@@ -18,7 +18,7 @@ def get_personal_data():
                 </p>
                 <p>For any inquiries, feel free to reach out to me via mail!</p>
                 <p>
-                    <a href="https://lexiyutou.github.io/assets/pdf/Xiaohang_Yu_CV.pdf" target="_blank" style="margin-right: 5px"><i class="fa fa-address-card fa-lg"></i> CV</a>
+                    <a href="assets/pdf/cv.pdf" target="_blank" style="margin-right: 5px"><i class="fa fa-address-card fa-lg"></i> CV</a>
                     <a href="mailto:xiaohang.yu@epfl.ch" style="margin-right: 5px"><i class="far fa-envelope-open fa-lg"></i> Mail</a>
                     <a href="https://scholar.google.com/citations?user=Gi_MoOsAAAAJ&hl=zh-CN" target="_blank" style="margin-right: 5px"><i class="fa-solid fa-book"></i> Scholar</a>
                     <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#demo" data-toggle="collapse" style="margin-left: -6px; margin-top: -2px;"><i class="fa-solid fa-trophy"></i>Awards</button>
@@ -38,7 +38,9 @@ def get_personal_data():
             <div class="col-sm-12" style="">
                 <h4>Teaching</h4>
                 <p>
-                    Teaching assistant for <a href="https://edu.epfl.ch/coursebook/en/analysis-iv-for-el-gm-mx-MATH-207-C" target="_blank">MATH-207(c): Analysis IV</a> (Spring 2025) <br>
+                    Teaching assistant for <a href="https://edu.epfl.ch/coursebook/en/analysis-iv-for-el-gm-mx-MATH-207-C" target="_blank">MATH-207(c): Analysis IV</a> <br>
+                    Teaching assistant for <a href="https://edu.epfl.ch/coursebook/en/applied-data-analysis-CS-401" target="_blank">CS-401: Applied Data Analysis</a> <br>
+                    Teaching assistant for <a href="https://edu.epfl.ch/coursebook/en/fundamentals-of-inference-and-learning-EE-411" target="_blank">EE-411: Fundamentals of Inference and Learning</a> <br>
                 </p>
             </div>
     """
@@ -197,7 +199,6 @@ def get_index_html():
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <title>{name[0] + ' ' + name[1]}</title>
-  <link rel="icon" type="image/x-icon" href="assets/mkbk.png">
 </head>
 
 <body>
