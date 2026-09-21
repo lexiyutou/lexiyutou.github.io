@@ -12,6 +12,12 @@
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+  <style>
+    .profile-links { display: flex; flex-wrap: wrap; gap: 0.6em; margin-top: 0.5em; margin-bottom: 1.5em; }
+    .profile-link { display: inline-flex; align-items: center; justify-content: center; gap: 0.45em; width: 7.5em; padding: 0.35em 0; border: 1px solid #007bff; border-radius: 999px; color: #007bff; font-size: 0.95em; transition: background-color 0.15s, color 0.15s; }
+    .profile-link:hover { background-color: #007bff; color: #fff; text-decoration: none; }
+  </style>
+
   <title>Xiaohang Yu</title>
 </head>
 
@@ -37,11 +43,11 @@
             
                 </p>
                 <p>For any inquiries, feel free to reach out to me via mail!</p>
-                <p>
-                    <a href="assets/pdf/cv.pdf" target="_blank" style="margin-right: 5px"><i class="fa fa-address-card fa-lg"></i> CV</a>
-                    <a href="mailto:xiaohang.yu@epfl.ch" style="margin-right: 5px"><i class="far fa-envelope-open fa-lg"></i> Mail</a>
-                    <a href="https://scholar.google.com/citations?user=Gi_MoOsAAAAJ&hl=zh-CN" target="_blank" style="margin-right: 5px"><i class="fa-solid fa-book"></i> Scholar</a>
-                </p>
+                <div class="profile-links">
+                    <a class="profile-link" href="assets/pdf/cv.pdf" target="_blank"><i class="fa-solid fa-file-lines"></i> CV</a>
+                    <a class="profile-link" href="mailto:xiaohang.yu@epfl.ch"><i class="fa-solid fa-envelope"></i> Mail</a>
+                    <a class="profile-link" href="https://scholar.google.com/citations?user=Gi_MoOsAAAAJ&hl=zh-CN" target="_blank"><i class="fa-solid fa-graduation-cap"></i> Scholar</a>
+                </div>
     
                     </div>
                     <div class="col-md-2" style="">
@@ -94,11 +100,12 @@
                     
             <div class="col-sm-12" style="">
                 <h4>Teaching</h4>
-                <p>
-                    Teaching assistant for <a href="https://edu.epfl.ch/coursebook/en/analysis-iv-for-el-gm-mx-MATH-207-C" target="_blank">MATH-207(c): Analysis IV</a> <br>
-                    Teaching assistant for <a href="https://edu.epfl.ch/coursebook/en/applied-data-analysis-CS-401" target="_blank">CS-401: Applied Data Analysis</a> <br>
-                    Teaching assistant for <a href="https://edu.epfl.ch/coursebook/en/fundamentals-of-inference-and-learning-EE-411" target="_blank">EE-411: Fundamentals of Inference and Learning</a> <br>
-                </p>
+                <p>Teaching assistant at EPFL:</p>
+                <ul>
+                    <li><a href="https://edu.epfl.ch/coursebook/en/analysis-iv-for-el-gm-mx-MATH-207-C" target="_blank">MATH-207(c): Analysis IV</a></li>
+                    <li><a href="https://edu.epfl.ch/coursebook/en/applied-data-analysis-CS-401" target="_blank">CS-401: Applied Data Analysis</a></li>
+                    <li><a href="https://edu.epfl.ch/coursebook/en/fundamentals-of-inference-and-learning-EE-411" target="_blank">EE-411: Fundamentals of Inference and Learning</a></li>
+                </ul>
             </div>
     
                 </div>
