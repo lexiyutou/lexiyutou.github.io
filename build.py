@@ -21,6 +21,8 @@ def get_personal_data():
                     <a class="profile-link" href="assets/pdf/cv.pdf" target="_blank"><i class="fa-solid fa-file-lines"></i> CV</a>
                     <a class="profile-link" href="mailto:xiaohang.yu@epfl.ch"><i class="fa-solid fa-envelope"></i> Mail</a>
                     <a class="profile-link" href="https://scholar.google.com/citations?user=Gi_MoOsAAAAJ&hl=zh-CN" target="_blank"><i class="fa-solid fa-graduation-cap"></i> Scholar</a>
+                    <a class="profile-link" href="https://github.com/lexiyutou" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+                    <a class="profile-link" href="https://www.linkedin.com/in/xiaohang-yu-091184324/" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
                 </div>
     """
     footer = """
