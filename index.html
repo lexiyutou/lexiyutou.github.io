@@ -13,9 +13,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <style>
-    .profile-links { display: flex; flex-wrap: wrap; gap: 0.6em; margin-top: 0.5em; margin-bottom: 1.5em; }
-    .profile-link { display: inline-flex; align-items: center; justify-content: center; gap: 0.45em; width: 7.5em; padding: 0.35em 0; border: 1px solid #007bff; border-radius: 999px; color: #007bff; font-size: 0.95em; transition: background-color 0.15s, color 0.15s; }
-    .profile-link:hover { background-color: #007bff; color: #fff; text-decoration: none; }
+    .profile-card { max-width: 190px; margin-left: auto; margin-right: auto; }
+    .profile-card img { width: 100%; border-radius: 6px; }
+    .profile-links { display: flex; justify-content: space-between; margin: 0.8em 0.15em 1em; font-size: 1.3em; }
+    .profile-link { color: #555; transition: color 0.15s; }
+    .profile-link:hover { color: #007bff; text-decoration: none; }
   </style>
 
   <title>Xiaohang Yu</title>
@@ -31,7 +33,7 @@
                     <h3 class="display-4" style="text-align: center;"><span style="font-weight: bold;">Xiaohang</span> Yu</h3>
                     </div>
                     <br>
-                    <div class="col-md-10" style="">
+                    <div class="col-md-9" style="">
                         
                 <p>
                     I am a third-year PhD student at <a href="https://mlabofai.org/" target="_blank">M-Lab of Adaptive Intelligence</a>, EPFL, Switzerland. 
@@ -43,17 +45,17 @@
             
                 </p>
                 <p>For any inquiries, feel free to reach out to me via mail!</p>
-                <div class="profile-links">
-                    <a class="profile-link" href="assets/pdf/cv.pdf" target="_blank"><i class="fa-solid fa-file-lines"></i> CV</a>
-                    <a class="profile-link" href="mailto:xiaohang.yu@epfl.ch"><i class="fa-solid fa-envelope"></i> Mail</a>
-                    <a class="profile-link" href="https://scholar.google.com/citations?user=Gi_MoOsAAAAJ&hl=zh-CN" target="_blank"><i class="fa-solid fa-graduation-cap"></i> Scholar</a>
-                    <a class="profile-link" href="https://github.com/lexiyutou" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
-                    <a class="profile-link" href="https://www.linkedin.com/in/xiaohang-yu-091184324/" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
-                </div>
     
                     </div>
-                    <div class="col-md-2" style="">
-                        <img src="assets/img/profile.jpg" class="img-thumbnail" width="580px" alt="Profile picture">
+                    <div class="col-md-3 profile-card">
+                        <img src="assets/img/profile.jpg" alt="Profile picture">
+                        <div class="profile-links">
+                            <a class="profile-link" href="assets/pdf/cv.pdf" target="_blank" title="CV" aria-label="CV"><i class="fa-solid fa-file-lines"></i></a>
+                            <a class="profile-link" href="mailto:xiaohang.yu@epfl.ch" title="Mail" aria-label="Mail"><i class="fa-solid fa-envelope"></i></a>
+                            <a class="profile-link" href="https://scholar.google.com/citations?user=Gi_MoOsAAAAJ&hl=zh-CN" target="_blank" title="Scholar" aria-label="Scholar"><i class="fa-solid fa-graduation-cap"></i></a>
+                            <a class="profile-link" href="https://github.com/lexiyutou" target="_blank" title="GitHub" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                            <a class="profile-link" href="https://www.linkedin.com/in/xiaohang-yu-091184324/" target="_blank" title="LinkedIn" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
                     </div>
                 </div>
                 <div class="row" style="margin-top: 1em;">
